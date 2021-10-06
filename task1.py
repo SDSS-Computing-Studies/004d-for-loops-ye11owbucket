@@ -20,7 +20,8 @@ Enter number:4
 import math 
 n = float(input("Enter a number: "))
 m = int(n) * 12
-for x in range(0, (m + 1)):
+n = int(n)
+for x in range(n, (m + 1)):
 
     if x % n == 0:
 
