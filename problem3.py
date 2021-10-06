@@ -17,3 +17,4 @@ example:
 enter a number: 4
 the sum of the series is 1234
 """
+e = input("Enter a number: ")
