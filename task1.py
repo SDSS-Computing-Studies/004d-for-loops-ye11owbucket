@@ -17,3 +17,11 @@ example:
 Enter number:4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+import math 
+n = float(input("Enter a number: "))
+m = int(n) * 12
+for x in range(0, (m + 1)):
+
+    if x % n == 0:
+
+        print(x)
