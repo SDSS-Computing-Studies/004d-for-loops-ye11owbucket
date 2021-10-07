@@ -17,12 +17,7 @@ example:
 Enter number:4
 4 8 12 16 20 24 28 32 36 40 44 48
 """
+
 import math 
-n = float(input("Enter a number: "))
-m = int(n) * 12
-n = int(n)
-for x in range(n, (m + 1)):
-
-    if x % n == 0:
-
-        print(x)
+num = int(input("Enter a number: "))
+print(num, num*2, num*3, num*4, num*5, num*6, num*7, num*8, num*9, num*10, num*11, num*12)
